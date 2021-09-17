@@ -41,6 +41,7 @@ The dataset was highly imbalances where functional needs repair class had only 7
 - 'construction-year' columns was grouped to a new column 'decade' to reduce the cardinality.
 -  Cardinality of several columns were reduced by creating a new category for the last groups of the categories list. 
 - New columns were created for the categorical columns with high cardinality(installer, funder). 
+- One-hot encoding was used to encode categorical features.
 
 ## References
 
